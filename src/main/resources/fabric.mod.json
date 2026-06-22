@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "wynndialogueskip",
+  "version": "${version}",
+  "name": "WynnDialogueSkip",
+  "description": "Automatically skips Wynncraft NPC dialogue using your configured skip keybind.",
+  "authors": [
+    "Menzilly"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Mengilly/wynndialogueskip",
+    "sources": "https://github.com/Mengilly/wynndialogueskip",
+    "issues": "https://github.com/Mengilly/wynndialogueskip/issues"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/wynndialogueskip/icon.png",
+  "environment": "client",
+  "accessWidener": "wynndialogueskip.accesswidener",
+  "entrypoints": {
+    "client": [
+      "com.autoskipdialogue.AutoSkipDialogueMod"
+    ],
+    "modmenu": [
+      "com.autoskipdialogue.config.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "wynntils": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "text.autoconfig.autoskipdialogue.title": "Auto Skip Dialogue",
+  "text.autoconfig.autoskipdialogue.option.enabled": "Enable Mod",
+  "text.autoconfig.autoskipdialogue.option.skipDelayMs": "Skip Delay (ms)",
+  "text.autoconfig.autoskipdialogue.option.skipDuringAnimation": "Skip During Animation",
+  "autoskipdialogue.missingWynntils": "Auto Skip NPC Dialogue requires Wynntils to be installed.",
+  "key.wynndialogueskip.toggle": "Toggle Auto Skip Dialogue",
+  "key.category.wynndialogueskip.general": "Auto Skip Dialogue",
+  "autoskipdialogue.toggle.enabled": "Enabled",
+  "autoskipdialogue.toggle.disabled": "Disabled"
+}
